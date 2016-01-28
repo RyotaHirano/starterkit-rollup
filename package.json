@@ -1,0 +1,52 @@
+{
+  "name": "starterkit-rollup",
+  "version": "0.0.0",
+  "description": "starterkit rollup",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "bundle": "rollup -c",
+    "build": "gulp build",
+    "deploy": "gulp build && gh-pages-deploy-cmd 'public/**/*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Ryota Hirano",
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-eslint": "^4.1.5",
+    "babel-polyfill": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "browser-sync": "^2.10.0",
+    "del": "^2.1.0",
+    "eslint-config-tsumiki": "0.0.1-rc1",
+    "eslint-plugin-babel": "^2.1.1",
+    "gh-pages-deploy-cmd": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-eslint": "^1.1.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^1.7.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "imagemin-pngquant": "^4.2.0",
+    "licensify": "^2.0.1",
+    "require-dir": "^0.3.0",
+    "rollup": "^0.25.1",
+    "rollup-plugin-babel": "^2.3.9",
+    "rollup-plugin-commonjs": "^2.2.0",
+    "rollup-plugin-npm": "^1.3.0",
+    "run-sequence": "^1.1.4",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "license": "MIT"
+}
